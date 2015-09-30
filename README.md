@@ -1,25 +1,7 @@
-# TP1 Enssat2015
-TP1 Enssat 2015
-## Démarrage
-### Vérifications de la configuration de votre poste de travail
-
-Vérifier que Maven est bien installé sur votre poste de travail.
-Où la repository maven se trouve-t-elle ?
-Quelle version de Maven utilisez-vous ?
-
-Vérifier que votre IDE ou votre éditeur préféré est bien installé sur votre machine
-Quel éditeur employez-vous ?
-Votre éditeur sait-il gérer la coloration syntaxique, etc... pour Java ?
-
-Vérifier que Git est également disponible
-Quelle version de Git utilisez-vous ?
-Vos préférences sont-elles configurées ? Si oui, dans quel fichier et quelles sont-elles ? (adresse mail, etc...)
-
-Vérifier que votre poste de travail comporte un JDK. 
-Quel est le chemin vers ce JDK ?
-Quelle version de Java utilisez-vous ?
-
-### Culture générale
-Lire la page Wikipedia de Spring (https://fr.wikipedia.org/wiki/Spring_(framework) )
-A quoi sert et comment fonctionne l'inversion de contrôle ?
-Qu'est ce que la programmation orientée Aspect ?
+# Programme des TPs 2015
+5 séances de 2 heures pour apprendre les fondamentaux de Spring
+1 TP1  : outils, présentation du framework, premier exemple de client Rest
+2 TP2 : MVC spring + utilisation de l'injection de dépendance pour intégrer l'exemple du TP1
+3 TP3 : Authentification dans Spring
+4 TP4 : Déploiement sous forme de micro-service Docker
+5 TP5 (évaluation) : synthèse, utilisation des acquis pour construire un exemple d'application Web
