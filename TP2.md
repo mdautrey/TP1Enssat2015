@@ -11,9 +11,14 @@
 
 Réaliser les exemples suivants :
 
-- Validation du contenu d'un formulaire web : http://spring.io/guides/gs/validating-form-input/
-- Gérer la soumission d'un formulaire web : http://spring.io/guides/gs/handling-form-submission/
+1- Gérer la soumission d'un formulaire web : http://spring.io/guides/gs/handling-form-submission/
+2- Enregistrer une application avec Twitter : http://spring.io/guides/gs/register-twitter-app/
+3- Utiliser les mécanismes de programmation orientée aspect : https://github.com/spring-projects/spring-boot/tree/master/spring-boot-samples/spring-boot-sample-aop
 
-En s'appuyant sur ces deux exemples, créer un formulaire web pour demander à l'utilisateur un code pays et une ville 
+En s'appuyant sur le premier exemples, créer un formulaire web pour demander à l'utilisateur un code pays et une ville 
 et lui afficher la météo de la ville en question en réutilisant le code du TP1
 
+S'inspirer des exemples 2 et 3 pour émettre un twitt à chaque fois qu'un utilisateur demande la météo
+
+Enfin, réaliser l'exemple de validation des données d'un formulaire web (http://spring.io/guides/gs/validating-form-input/). 
+A partir de cet exemple, ajouter des règles de validation au formulaire précédent.
