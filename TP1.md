@@ -76,19 +76,3 @@ Pour supprimer les logs, deux solutions possibles
 la commande java pour exécuter l'application
 2- Ajouter un répertoire resources et un fichier de configuration application.yml (plus efficace et approche plus
 moderne que la précédente)
-
-#### based on example application.yml -> https://github.com/spring-projects/spring-boot/blob/master/docs/application.yml
-
-spring:
-  application.name: CommandLineRunner
-  
-  datasource:
-    driverClassName: com.mysql.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/blog
-    username: root
-    password: root
-  
-  jpa:
-     show-sql: true
-     hibernate:
-       ddl-auto: update
