@@ -45,4 +45,50 @@ API REST pour l'interrogation du temps :
 
 - http://api.openweathermap.org/data/2.5/weather?q=Patri,fr
 - http://openweathermap.org/current#name
+## Corrigé
+### Première solution
 
+- Dans votre répertoire github, faire un fork du projet spring (https://github.com/spring-guides/gs-consuming-rest)
+- Faire un clone local de ce répertoire (git clone .... ) sur votre machine
+- Tester le code
+- Le modifier pour remplir les objectifs du TP
+
+Nota : on travaille de cette manière sur tous les projets Open Source :
+
+- Fork
+- Clone
+
+Lorsque vous êtes satisfait de votre travail sur votre machine, vous le remontez dans votre repository Git en utilisant 
+la commande git pull . Vous faites ensuite un pull request au gestionnaire du projet 
+(voir https://help.github.com/articles/using-pull-requests/ ) 
+
+### Deuxième solution
+
+Vous reprenez le code à votre compte progressivement en l'adaptant (pour éviter de trainer l'héritage de l'example).
+
+- Créer un pom.xml (fichier makefile de maven)
+- Copier coller le maven de l'exemple fourni par Spring
+- Créer les différents fichiers Java
+
+Pour supprimer les logs, deux solutions possibles
+
+1- Ajouter un fichier application.properties (qui doit se trouvert dans le répertoire à partit duquel on lance
+la commande java pour exécuter l'application
+2- Ajouter un répertoire resources et un fichier de configuration application.yml (plus efficace et approche plus
+moderne que la précédente)
+
+#### based on example application.yml -> https://github.com/spring-projects/spring-boot/blob/master/docs/application.yml
+
+spring:
+  application.name: CommandLineRunner
+  
+  datasource:
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/blog
+    username: root
+    password: root
+  
+  jpa:
+     show-sql: true
+     hibernate:
+       ddl-auto: update
