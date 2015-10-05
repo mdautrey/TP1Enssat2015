@@ -1,0 +1,4 @@
+## based on example application.yml -> https://github.com/spring-projects/spring-boot/blob/master/docs/application.yml
+logging:
+  level:
+    ROOT: ERROR
