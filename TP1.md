@@ -41,4 +41,8 @@ prévisions météorologiques pour un endroit :
 - Affichage des données pour cette ville
 - Compilation, test
 
+API REST pour l'interrogation du temps :
+
+- http://api.openweathermap.org/data/2.5/weather?q=Patri,fr
+- http://openweathermap.org/current#name
 
