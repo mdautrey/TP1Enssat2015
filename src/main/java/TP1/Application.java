@@ -42,6 +42,8 @@ public class Application implements CommandLineRunner {
         SpringApplication.run(Application.class);
     }
 
+    // String ... = varargs
+    // See http://stackoverflow.com/questions/23168342/is-a-variable-length-argument-treated-as-an-array-in-java
     @Override
     public void run(String... strings) throws Exception {
         // http://alvinalexander.com/java/edu/pj/pj010005
