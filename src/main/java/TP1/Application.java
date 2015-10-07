@@ -1,6 +1,5 @@
 package TP1;
 
-import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.http.converter.json.MappingJackson2HttpMessageConverter;
@@ -34,18 +33,17 @@ https://mhdevelopment.wordpress.com/2014/02/09/bootstrap-an-application-with-spr
  */
 
 @SpringBootApplication
-public class Application implements CommandLineRunner {
+public class Application {
 
     private static final String URI = "http://api.openweathermap.org/data/2.5/weather?q=%s,%s";
 
-    public static void main(String args[]) {
-        SpringApplication.run(Application.class);
+    public static void main(String[] args) {
+        SpringApplication.run(Application.class, args);
     }
 
     // String ... = varargs
     // See http://stackoverflow.com/questions/23168342/is-a-variable-length-argument-treated-as-an-array-in-java
-    @Override
-    public void run(String... strings) throws Exception {
+    public void Test(String... strings) throws Exception {
         // http://alvinalexander.com/java/edu/pj/pj010005
         Scanner scanner = new Scanner(System.in);
 

@@ -24,10 +24,12 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="TP1Enssat2015" />
+        <module name="TPEnssat2015" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="TP1Enssat2015" target="1.7" />
+      <module name="TPEnssat2015" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>
