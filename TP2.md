@@ -22,3 +22,5 @@ S'inspirer des exemples 2 et 3 pour émettre un twitt à chaque fois qu'un utili
 
 Enfin, réaliser l'exemple de validation des données d'un formulaire web (http://spring.io/guides/gs/validating-form-input/). 
 A partir de cet exemple, ajouter des règles de validation au formulaire précédent.
+
+http://docs.spring.io/spring-framework/docs/current/spring-framework-reference/html/mvc.html
