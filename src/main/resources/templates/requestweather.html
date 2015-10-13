@@ -6,9 +6,9 @@
 </head>
 <body>
 <h1>Form</h1>
-<form action="#" th:action="@{/viewweather}" th:object="${localisation}" method="post">
-    <p>Code ville: <input type="text" th:field="*{codeVille}" /></p>
-    <p>Code pays: <input type="text" th:field="*{codePays}" /></p>
+<form action="#" th:action="@{/viewweather}" th:object="${location}" method="post">
+    <p>Code pays: <input type="text" th:field="${location.codePays}" /></p>
+    <p>Code ville: <input type="text" th:field="${location.codeVille}" /></p>
     <p><input type="submit" value="Submit" /> <input type="reset" value="Reset" /></p>
 </form>
 </body>

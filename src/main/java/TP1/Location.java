@@ -3,7 +3,7 @@ package TP1;
 /**
  * Created by mdautrey on 07/10/15.
  */
-public class Localisation {
+public class Location {
     private String _codePays;
     private String _codeVille;
     public String getCodePays(){return _codePays;}

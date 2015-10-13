@@ -2,10 +2,6 @@ package TP1;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.http.converter.json.MappingJackson2HttpMessageConverter;
-import org.springframework.web.client.RestTemplate;
-
-import java.util.Scanner;
 
 
 
@@ -41,33 +37,5 @@ public class Application {
         SpringApplication.run(Application.class, args);
     }
 
-    // String ... = varargs
-    // See http://stackoverflow.com/questions/23168342/is-a-variable-length-argument-treated-as-an-array-in-java
-    public void Test(String... strings) throws Exception {
-        // http://alvinalexander.com/java/edu/pj/pj010005
-        Scanner scanner = new Scanner(System.in);
 
-        // code pays
-        System.out.println("Code pays ?");
-        String codePays = scanner.next();
-        // ville
-        System.out.println("Ville ?");
-        String ville = scanner.next();
-
-        /*
-        RestTemplate
-        Spring's central class for synchronous client-side HTTP access. It simplifies communication
-        with HTTP servers, and enforces RESTful principles. It handles HTTP connections, leaving
-        application code to provide URLs (with possible template variables) and extract results.
-         */
-        RestTemplate restTemplate = new RestTemplate();
-
-        // http://docs.spring.io/autorepo/docs/spring-android/1.0.x/reference/html/rest-template.html
-        restTemplate.getMessageConverters().add(new MappingJackson2HttpMessageConverter());
-        String url = String.format(URI, ville, codePays);
-        WeatherForecast weatherForecast = restTemplate.getForObject(url, WeatherForecast.class);
-        System.out.println("Vous avez demandé la météo pour la ville de " + ville + "\nCode pays " + codePays);
-        System.out.println(weatherForecast.toString());
-
-    }
 }
