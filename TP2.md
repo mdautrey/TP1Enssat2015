@@ -24,3 +24,22 @@ Enfin, réaliser l'exemple de validation des données d'un formulaire web (http:
 A partir de cet exemple, ajouter des règles de validation au formulaire précédent.
 
 http://docs.spring.io/spring-framework/docs/current/spring-framework-reference/html/mvc.html
+
+### TP2 : corrigé de la première partie
+
+Une première solution de cette première partie du TP est proposée sur github https://github.com/mdautrey/TPEnssat2015/commits/master (Commit : 2a0946c9d5df1685361a28cb98dec4eb0123ea52).
+Que pensez-vous de l'organisation du contrôleur WeatherControleur ? Quelle solution envisageriez-vous pour découpler le contrôleur et la mécanique propre à la requête REST ? 
+
+Testez le code. Le correcteur a oublié un bug. A quel endroit se trouve-t-il ? Corrigez-le. 
+
+Pour supprimer le couplage entre le contrôleur et le client webservice, le correcteur a décidé d'utiliser le mécanisme d'injection de dépendande proposé par Spring.
+Faites un checkout du commit correspondant ( ).  Localisez-l'injection de dépendance. Etudiez son fonctionnement. Justifiez/expliquez sa présence. Quelle solution 
+d'architecture envisageriez-vous pour remplacer cette injection ?
+
+Testez le code. Compléter le template viewweather.html afin d'afficher plus de champs de l'object WeatherForecast.
+
+### TP2 : poursuite des travaux
+
+Poursuivre le TP en réalisant les exemples concernant Twitter.
+
+
