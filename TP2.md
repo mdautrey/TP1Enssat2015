@@ -27,9 +27,9 @@ http://docs.spring.io/spring-framework/docs/current/spring-framework-reference/h
 
 ### TP2 : corrigé de la première partie
 
-Une première solution de cette première partie du TP est proposée sur github https://github.com/mdautrey/TPEnssat2015/commits/master (Commit : 2a0946c9d5df1685361a28cb98dec4eb0123ea52).
+Une solution basique pour la première partie du TP est fournie sur github https://github.com/mdautrey/TPEnssat2015/commits/master (Commit : 2a0946c9d5df1685361a28cb98dec4eb0123ea52).
 
-- Que pensez-vous de l'organisation du contrôleur WeatherControleur ? 
+- Que pensez-vous de l'organisation du contrôleur WeatherController ? 
 - Quelle solution envisageriez-vous pour découpler le contrôleur et le client REST ? 
 
 Testez le code en l'exécutant (mvn clean install puis java -jar target/... .jar) . 
@@ -39,14 +39,15 @@ Le correcteur a oublié un bug.
 - A quel endroit se trouve-t-il ? 
 - Corrigez-le. 
 
-Pour supprimer le couplage entre le contrôleur et le client REST, le correcteur a décidé d'utiliser le mécanisme d'injection de dépendance proposé par Spring.
-Faites un checkout du commit correspondant (c743e3f495770c734aa7b7806f46959b3b4ddbc4). 
+Se rendant compte du problème de conception,le correcteur essaie de supprimer le couplage entre le contrôleur et le client REST. Il
+décidé donc d'utiliser le mécanisme d'injection de dépendance proposé par Spring. Après avoir testé l'ensemble, il publie son code
+sur github. Faites un checkout du commit correspondant (c743e3f495770c734aa7b7806f46959b3b4ddbc4). 
 
 - Localisez l'injection de dépendance. 
 - Etudiez son fonctionnement. 
 - Justifiez/expliquez sa présence. 
 
-Quelle solution d'architecture envisageriez-vous pour remplacer cette injection ?
+Pensez-vous que ce soit une bonne solution ? Quelle solution d'architecture envisageriez-vous pour remplacer cette injection ?
 
 Testez le code. Compléter le template viewweather.html afin d'afficher plus de champs de l'object WeatherForecast.
 
