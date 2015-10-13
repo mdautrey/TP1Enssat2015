@@ -30,7 +30,7 @@ http://docs.spring.io/spring-framework/docs/current/spring-framework-reference/h
 Une première solution de cette première partie du TP est proposée sur github https://github.com/mdautrey/TPEnssat2015/commits/master (Commit : 2a0946c9d5df1685361a28cb98dec4eb0123ea52).
 
 - Que pensez-vous de l'organisation du contrôleur WeatherControleur ? 
-- Quelle solution envisageriez-vous pour découpler le contrôleur et la mécanique propre à la requête REST ? 
+- Quelle solution envisageriez-vous pour découpler le contrôleur et le client REST ? 
 
 Testez le code en l'exécutant (mvn clean install puis java -jar target/... .jar) . 
 
@@ -39,7 +39,7 @@ Le correcteur a oublié un bug.
 - A quel endroit se trouve-t-il ? 
 - Corrigez-le. 
 
-Pour supprimer le couplage entre le contrôleur et le client webservice, le correcteur a décidé d'utiliser le mécanisme d'injection de dépendance proposé par Spring.
+Pour supprimer le couplage entre le contrôleur et le client REST, le correcteur a décidé d'utiliser le mécanisme d'injection de dépendance proposé par Spring.
 Faites un checkout du commit correspondant (c743e3f495770c734aa7b7806f46959b3b4ddbc4). 
 
 - Localisez l'injection de dépendance. 
