@@ -55,4 +55,26 @@ Testez le code. Compléter le template viewweather.html afin d'afficher plus de 
 
 Poursuivre le TP en réalisant les exemples concernant Twitter.
 
+### TP2 : corrigé de la deuxième partie / partie 1 (twitter)
+
+La fonctionnalité demandée comporte deux problématiques techniques :
+
+1- Se connecter et envoyer des messages sur Twitter
+2- Détecter les appels au service de météo pour déclencher les envois twitter (le cross-cut concern qui fait l'objet de la programmation orientée Aspect)
+
+Nous réalisons donc le projet en trois étapes, la première consistant à tester la partie twitter, la deuxième à réaliser le cross-cut et la troisième à intégrer le tout dans notre solution cible.
+
+Pour réaliser la partie Twitter :
+
+- Suivre le tutoriel proposé par Spring (http://spring.io/guides/gs/register-twitter-app/)
+- Télécharger et tester ensuite l'exemple forké de l'exemple spring (https://github.com/mdautrey/gs-register-twitter-app)
+
+Quelles sont les modifications nécessaires pour que l'exemple modifié fonctionne ?
+Nous avons décidé d'utiliser une librairie externe à Spring pour développer cette exemple plus rapidement. De quelle librairie s'agit-il ? Visiter le lien en commentaire dans le code pour comprendre le fonctionnement de l'exemple.
+
+### TP2 : test de la programmation orientée Aspect
+
+
+### TP2 : wrap up
+
 
