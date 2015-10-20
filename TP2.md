@@ -59,8 +59,9 @@ Poursuivre le TP en réalisant les exemples concernant Twitter.
 
 La fonctionnalité demandée comporte deux problématiques techniques :
 
-1 Se connecter et envoyer des messages sur Twitter
-2 Détecter les appels au service de météo pour déclencher les envois twitter (le cross-cut concern qui fait l'objet de la programmation orientée Aspect)
+1- Se connecter et envoyer des messages sur Twitter
+
+2- Détecter les appels au service de météo pour déclencher les envois twitter (le cross-cut concern qui fait l'objet de la programmation orientée Aspect)
 
 Nous réalisons donc le projet en trois étapes, la première consistant à tester la partie twitter, la deuxième à réaliser le cross-cut et la troisième à intégrer le tout dans notre solution cible.
 
