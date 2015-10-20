@@ -51,10 +51,6 @@ Pensez-vous que ce soit une bonne solution ? Quelle solution d'architecture envi
 
 Testez le code. Compléter le template viewweather.html afin d'afficher plus de champs de l'object WeatherForecast.
 
-### TP2 : poursuite des travaux
-
-Poursuivre le TP en réalisant les exemples concernant Twitter.
-
 ### TP2 : corrigé de la deuxième partie / partie 1 (twitter)
 
 La fonctionnalité demandée comporte deux problématiques techniques :
