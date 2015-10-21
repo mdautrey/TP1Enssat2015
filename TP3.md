@@ -55,7 +55,10 @@ Vous avez besoin d'une machine comportant docker pour réaliser le build de l'ap
 
 
 Vous devez ensuite réaliser un build compatible avec tutum. Voir le tutorial ici : http://blog.tutum.co/2014/12/08/deploying-a-java-application-with-docker-and-tutum/
-et réaliser le déploiement du build sur tutum
+
+Puis réaliser le déploiement du build sur tutum
+
+Pour démarrer, vous pouvez vous appuyez sur le code suivant : https://github.com/mdautrey/gs-docker
 
 ## Application pratique
 
