@@ -25,7 +25,7 @@ A partir de cet exemple, ajouter des règles de validation au formulaire précé
 
 http://docs.spring.io/spring-framework/docs/current/spring-framework-reference/html/mvc.html
 
-### TP2 : corrigé de la première partie
+### a) TP2 : corrigé de la première partie
 
 Une solution basique pour la première partie du TP est fournie sur github https://github.com/mdautrey/TPEnssat2015/commits/master (Commit : 2a0946c9d5df1685361a28cb98dec4eb0123ea52).
 
@@ -51,7 +51,7 @@ Pensez-vous que ce soit une bonne solution ? Quelle solution d'architecture envi
 
 Testez le code. Compléter le template viewweather.html afin d'afficher plus de champs de l'object WeatherForecast.
 
-### TP2 : corrigé de la deuxième partie / partie 1 (twitter)
+### b) TP2 : corrigé de la deuxième partie / partie 1 (twitter)
 
 La fonctionnalité demandée comporte deux problématiques techniques :
 
@@ -68,7 +68,7 @@ Pour réaliser la partie Twitter :
 Quelles sont les modifications nécessaires pour que l'exemple modifié fonctionne ?
 Nous avons décidé d'utiliser une librairie externe à Spring pour développer cette exemple plus rapidement. De quelle librairie s'agit-il ? Visiter le lien en commentaire dans le code pour comprendre le fonctionnement de l'exemple.
 
-### TP2 : test de la programmation orientée Aspect
+### c) TP2 : corrigé de la deuxième partie / partie 2 (programmation orientée Aspect)
 
 La démarche est expliquée dans http://docs.spring.io/spring/docs/current/spring-framework-reference/html/aop.html
 
@@ -82,9 +82,11 @@ Plan d'attaque :
 * Déclarer un PointCut
 
 
-
-
-
 ### TP2 : wrap up
+
+A FAIRE LORS DE LA SEANCE DE TP N°3
+
+- Traiter les questions des paragraphes a), b) et c) ci-dessus, dans l'ordre
+- Intégrer le code proposé dans b) et c) pour finaliser le service d'envoi de tweet à chaque fois qu'un utilisateur demande la météo
 
 
