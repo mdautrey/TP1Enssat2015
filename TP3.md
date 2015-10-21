@@ -7,7 +7,7 @@ Parcourez le document mais n'y passez pas trop de temps ! Les TPs sont d'abord d
 
 ## Exemple de dockerisation proposé par Spring
 
-Suivre le tutoriel http://spring.io/guides/gs/spring-boot-docker/
+Suivre le tutoriel http://blog.tutum.co/2014/12/08/deploying-a-java-application-with-docker-and-tutum/
 
 Le tutoriel nécessite l'accès à une plateforme de type docker.
 
@@ -57,8 +57,6 @@ Vous avez besoin d'une machine comportant docker pour réaliser le build de l'ap
 Vous devez ensuite réaliser un build compatible avec tutum. Voir le tutorial ici : http://blog.tutum.co/2014/12/08/deploying-a-java-application-with-docker-and-tutum/
 
 Puis réaliser le déploiement du build sur tutum
-
-Pour démarrer, vous pouvez vous appuyez sur le code suivant : https://github.com/mdautrey/gs-docker
 
 ## Application pratique
 
