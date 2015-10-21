@@ -70,6 +70,20 @@ Nous avons décidé d'utiliser une librairie externe à Spring pour développer 
 
 ### TP2 : test de la programmation orientée Aspect
 
+La démarche est expliquée dans http://docs.spring.io/spring/docs/current/spring-framework-reference/html/aop.html
+
+Plan d'attaque :
+
+- Ajouter les dépendances aspectj dans le POM
+- Créer la classe pour recevoir le twitter service
+- Lier le tout
+* Activer le support d'AspectJ
+* Déclarer un Aspect
+* Déclarer un PointCut
+
+
+
+
 
 ### TP2 : wrap up
 
