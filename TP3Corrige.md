@@ -59,6 +59,10 @@ La marche à suivre pour tester cet exemple :
 Lorsque vous aurez réalisé l'ensemble de ces opérations, vous serez prêt pour modifier l'application du TP et l'installer dans docker !
 
 
+Cette solution nécessite de disposer d'une machine sur laquelle sont installés les outils cités précédemment. Une alternative consiste à réaliser le build 
+de l'application directement sur la repository tutum ou hub.docker.com, en utilisant les fonctions d'intégration des repositories avec git 
+et en ajoutant un fichier Dockerfile correctement paramétré directement sous la racine du projet. Voir : https://hub.docker.com/_/maven/
+
 ## Version simplifiée du TP
 
 Compte tenu de la complexité des opérations ci-dessus, pour permettre à ceux qui n'iront pas jusqu'au bout de la configuration 
